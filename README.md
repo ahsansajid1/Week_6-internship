@@ -34,8 +34,7 @@ week6/
 
 Clone repo:
 
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name/week6
+git clone https://github.com/ahsansajid1/Week_6-internship/blob/main/README.md
 
 
 Create virtual environment & install requirements:
