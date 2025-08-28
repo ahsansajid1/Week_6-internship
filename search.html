@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Results</title>
+</head>
+<body>
+  <h1>Search Results for "{{ keyword }}"</h1>
+  <ul>
+    {% for note in notes %}
+      <li>{{ note.note }}</li>
+    {% else %}
+      <li>No matching notes found.</li>
+    {% endfor %}
+  </ul>
+  <a href="/">Back</a>
+</body>
+</html>
